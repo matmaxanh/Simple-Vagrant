@@ -3,11 +3,12 @@ hostname      = "minelamp"
 server_ip     = "192.168.22.10"
 server_cpus   = "1"   # Cores
 server_memory = "1024" # MB
+base_box      = "mine/ubuntu_lamp"
 
 Vagrant.configure(2) do |config|
 
     # Specify the base box
-    config.vm.box = "mine/ubuntu_lamp"
+    config.vm.box = base_box
 
     # Create a hostname, don't forget to put it to the `hosts` file
     # This will point to the server's default virtual host
