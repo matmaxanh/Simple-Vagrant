@@ -47,7 +47,8 @@ Start the VM
     $ cd /devspace
     $ vagrant up
 
-First time of your 'vagrant up' will provision the vagrant. You can see the status of your VM from [http://192.168.22.10](http://192.168.22.10).
+First time of your 'vagrant up' will provision the vagrant. You can see the status of your VM from [http://192.168.22.10](http://192.168.22.10). You can also see your VM on [https:://192.168.22.10](https://192.168.22.10)
+
 You can check the `phpinfo` from  [http://192.168.22.10/phpinfo.php](http://192.168.22.10/phpinfo.php)
 
 ### Requirements
@@ -70,6 +71,11 @@ These are credentials setup by default.
 - Password: root
 - Host: localhost
 - Port: 3306
+
+## PHPMyAdmin
+you can access phpmyadmin at [http://192.168.22.10/phpmyadmin](http://192.168.22.10/phpmyadmin)
+- Username: root
+- Password: root
 
  
 ### Disclaimer
