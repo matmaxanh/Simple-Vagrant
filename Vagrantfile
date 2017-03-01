@@ -3,7 +3,7 @@ hostname      = "minelamp"
 server_ip     = "192.168.22.10"
 server_cpus   = "1"   # Cores
 server_memory = "1024" # MB
-base_box      = "mine/ubuntu_lamp"
+base_box      = "bluecode/lamp"
 
 Vagrant.configure(2) do |config|
 
